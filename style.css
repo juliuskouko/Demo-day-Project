@@ -1,0 +1,126 @@
+* {
+    padding: 0pc;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .navbar-home {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  label.logo {
+    color: rgb(252, 98, 52);
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  
+  }
+  .navbar-home ul {
+    float: right;
+    margin: 10px;
+  }
+  .navbar-home ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin: 0px 5px;
+  }
+  a.activate,a:hover {
+    background: rgb(252, 98, 52);
+    transition: .5s;
+  }
+  
+  .navbar-home ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 18px;
+    border-radius: 3px;
+  }
+  .sub-menu {
+    display: none;
+  }
+  .navbar-home ul li:hover .sub-menu {
+    display: block;
+    position: fixed;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+    
+  }
+  .navbar-home ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+  
+  }
+  .navbar-home ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border-radius: 0px;
+    text-align: left;
+  }
+.upwards {
+    align-items: center;
+    position: absolute;
+    top: 160px;
+}
+
+/* .navbar-home {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+   
+} */
+
+.social {
+    padding: 3rem;
+   
+}
+.media h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 15px 0px;
+}
+
+.second-span {
+    color: rgb(244,107,33);
+}
+
+.facebook {
+   margin: 20px 0px;
+   /* border: 1px solid black; */
+}
+     
+.istagram {
+    margin: 20px 0px;
+    /* border: 1px solid black */
+}
+
+.hood {
+    margin: 20px 0px;
+    /* border: 1px solid black */
+}
+
+
+.social h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: black;
+    border: 0.3px solid black;
+    height: 10vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
